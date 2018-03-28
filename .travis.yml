@@ -15,7 +15,7 @@ addons:
   chrome: stable
 
 script:
-- ./gradlew build --info
+- mvn -version
 
 cache:
   directories:
