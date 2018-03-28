@@ -32,7 +32,7 @@ If you don't want to use the script make sure to have a database with the same c
 Once you've provided the API key and started a PostgreSQL database you can run the application using
 
 ```bash
-./gradlew bootRun
+mvn spring-boot:run
 ```
 
 The application will start on port `8080` so you can send a sample request to `http://localhost:8080/hello` to see if you're up and running.
